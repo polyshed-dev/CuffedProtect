@@ -26,6 +26,7 @@ namespace CuffedProtect
 
         public override void OnDisabled()
         {
+            _handler.UnsubscribeEvents();
             Instance = null;
             _handler = null;
             
