@@ -21,7 +21,7 @@ namespace CuffedProtect
 
         private void OnRemovingHandcuffs(RemovingHandcuffsEventArgs ev)
         {
-            if (ev.Target.Cuffer != ev.Player)
+            if (ev.Target.Cuffer != ev.Player && ev.Player.LeadingTeam != ev.Target.Cuffer.LeadingTeam)
             {
                 ev.IsAllowed = false;
             }
