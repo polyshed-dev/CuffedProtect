@@ -3,6 +3,8 @@ using Exiled.API.Interfaces;
 using Exiled.Events.EventArgs;
 using System;
 
+// Copyright (c) 2026 polyshed
+
 namespace CuffedProtect
 {
     public class Plugin : Plugin<Config>
