@@ -1,4 +1,4 @@
-# CuffedProtect
+# CuffedProtect ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/polyshed-dev/CuffedProtect/total)
 Simple [EXILED](https://github.com/ExMod-Team/EXILED) plugin that protects players that you cuff.
 ### Features
 - Only SCPs and the cuffer can kill a cuffed player.
