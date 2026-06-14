@@ -1,5 +1,7 @@
 ﻿using Exiled.Events.EventArgs.Player;
 
+// Copyright (c) 2026 polyshed
+
 namespace CuffedProtect
 {
     public class EventHandler
